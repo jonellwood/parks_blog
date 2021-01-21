@@ -12,7 +12,7 @@ function ArticleList({articles}) {
                             key = {index}
                             description = {node.description}
                             slug = {node.slug}
-                            commentCount = "Some Random Number of"
+                            // commentCount = "Some Random Number of"
                         />
                     }
                 )

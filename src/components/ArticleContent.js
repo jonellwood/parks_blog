@@ -114,7 +114,7 @@ function ArticleContent(props) {
                     <br />
                     Tagged with
                     <TagList data={tags} />
-                    Note : Here's where a note would go if Jon could think of one
+                    Additional information available at <Link className="cityLink" to="https://cityofhanahan.com"> www.cityofhanahan.com </Link>
                 </div>
             </div>
         </div>

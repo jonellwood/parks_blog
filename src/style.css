@@ -9,12 +9,12 @@ html body {
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
     background-color: #263238;
+    background-image: url(./images/grass_darker.jpg);
 
 }
 
 body::after {
   content: '';
-  background-image: url(./images/grass.jpg);
   opacity: 0.25;
   top: 0;
   left: 0;
@@ -26,7 +26,7 @@ body::after {
 
 body p {
 
-    color: #80CBC4;
+    color: #ffffff;
 }
 
 .sidebar {
@@ -39,7 +39,7 @@ body p {
 
 .sidebar h2 {
     font-weight: 700;
-    color: black;
+    color: wheat;
 }
 
 /* .profile-img {
@@ -88,7 +88,8 @@ body p {
     color: #FFCB6B;
     margin-left: 300px;
     margin-right: 300px;
-    padding: 10px
+    padding: 10px;
+    background-color: #faebd720;
 }
 
 .article-content p{
@@ -113,3 +114,4 @@ body p {
         margin: 10px
     }
 }
+

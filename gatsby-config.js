@@ -6,9 +6,9 @@ if(process.env.NODE_ENV !== 'production'){
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Contentful Starter`,
-    description: `This starter ships with the main Gatsby configuration files and contentful api`,
-    author: `Mohan`,
+    title: `Hanahan Parks Project Blog`,
+    description: `This is a super simple blog to publish updates about the parks project`,
+    author: `Ellwood`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

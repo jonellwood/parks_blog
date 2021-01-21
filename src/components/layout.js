@@ -8,7 +8,7 @@ function Layout({ children }) {
         'social': {
             "facebook": "https://www.facebook.com/cityofhanahan",
             "twitter": "https://www.twitter.com/cityofhanahan",
-            "github": "https://github.com/jonellwood"
+            "website": "https://www.cityofhanahan.com",
         }
     }
     return (
@@ -24,7 +24,7 @@ function Layout({ children }) {
                     </div>
                 </div>
             </div>
-            <span><img src="https://www.sciencenews.org/wp-content/uploads/2020/04/041120_playgrounds_feat-1028x579.jpg" alt="kids" width='100%'/>  </span>
+            {/* <span><img src="https://www.sciencenews.org/wp-content/uploads/2020/04/041120_playgrounds_feat-1028x579.jpg" alt="kids" width='100%'/>  </span> */}
         </div>
     )
 }
