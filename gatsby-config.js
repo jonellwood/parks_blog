@@ -30,18 +30,18 @@ module.exports = {
         background_color: `#263238`,
         theme_color: `#263238`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/COHLogoLineArt.png`, // This path is relative to the root of the site.
       },
     },
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `b2oeyxchybpq`,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        spaceId: 'hspdgq1dlxp9',
+        accessToken: 'ntMzcQBuertXrj9czCuYmQAGwQeDTHOBz3uzgFqusfA',
       },
     },
     // `@contentful/rich-text-react-renderer`
 
-    
+
   ],
 }

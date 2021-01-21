@@ -3,12 +3,12 @@ import Sidebar from './Sidebar'
 
 function Layout({ children }) {
     const data = {
-        'title': "Hi , I’m Mohan",
-        'info': "Kick off your next gatsby contentful project with this awesome starter 🚀. I hope you like this one. I love to hear your feedback.",
+        'title': "Welcome to the City of Hanahan Park Central",
+        'info': "The one place for all your 'Yes to Parks' information",
         'social': {
-            "facebook": "https://www.facebook.com/sree.dhannu",
-            "twitter": "https://www.twitter.com/_MrNullPointer",
-            "github": "https://github.com/mohanmonu777"
+            "facebook": "https://www.facebook.com/cityofhanahan",
+            "twitter": "https://www.twitter.com/cityofhanahan",
+            "github": "https://github.com/jonellwood"
         }
     }
     return (
@@ -24,6 +24,7 @@ function Layout({ children }) {
                     </div>
                 </div>
             </div>
+            <span><img src="https://www.sciencenews.org/wp-content/uploads/2020/04/041120_playgrounds_feat-1028x579.jpg" alt="kids" width='100%'/>  </span>
         </div>
     )
 }

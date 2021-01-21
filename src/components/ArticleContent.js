@@ -28,7 +28,7 @@ function ArticleContent(props) {
     const Image = ({ node }) => {
         const src = node.data.target.fields.file["en-US"].url
 
-        return <img src={src} className="img-fluid" />
+        return <img src={src} className="img-fluid" alt="image of {src}"/>
 
     }
 
@@ -114,7 +114,7 @@ function ArticleContent(props) {
                     <br />
                     Tagged with
                     <TagList data={tags} />
-                    Note : These are the random articles took from Medium
+                    Note : Here's where a note would go if Jon could think of one
                 </div>
             </div>
         </div>

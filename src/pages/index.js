@@ -12,7 +12,7 @@ function index({ data }) {
   return (
     <div>
       <Helmet>
-          <title>Gatsby Contentful Starter</title>
+          <title>Yes to Hanahan Parks</title>
       </Helmet>
       <Layout>
         <ArticleList articles={articles} />

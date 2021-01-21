@@ -8,11 +8,25 @@ html body {
     padding: 0;
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
-    background-color: #263238
+    background-color: #263238;
+
+}
+
+body::after {
+  content: '';
+  background-image: url(./images/grass.jpg);
+  opacity: 0.25;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 body p {
-    color: #80CBC4
+
+    color: #80CBC4;
 }
 
 .sidebar {
@@ -25,12 +39,12 @@ body p {
 
 .sidebar h2 {
     font-weight: 700;
-    color: #FFCB6B
+    color: black;
 }
 
-.profile-img {
-    border: 5px solid #FFCB6B
-}
+/* .profile-img {
+    border: .5px solid #FFCB6B
+} */
 
 .icon {
     font-size: 40px;

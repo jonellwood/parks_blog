@@ -7,12 +7,12 @@ function ArticleList({articles}) {
             {
                 articles.map(
                     ({ node } , index) => {
-                        return <ArticleItem 
+                        return <ArticleItem
                             title = {node.title}
                             key = {index}
                             description = {node.description}
                             slug = {node.slug}
-                            commentCount = "12"
+                            commentCount = "Some Random Number of"
                         />
                     }
                 )
