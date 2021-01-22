@@ -21,6 +21,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-fontawesome-css`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -38,6 +39,7 @@ module.exports = {
       options: {
         spaceId: 'hspdgq1dlxp9',
         accessToken: 'ntMzcQBuertXrj9czCuYmQAGwQeDTHOBz3uzgFqusfA',
+        downloadLocal: true,
       },
     },
     // `@contentful/rich-text-react-renderer`

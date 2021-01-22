@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook as Facebook, FaTwitter as Twitter, FaGithub as Github } from 'react-icons/fa';
+import { FaFacebook as Facebook, FaTwitter as Twitter } from 'react-icons/fa';
 import { MdLanguage as Website } from "react-icons/md";
 
 function SocialLinks({socialLinks}) {

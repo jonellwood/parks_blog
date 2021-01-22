@@ -4,7 +4,8 @@ import { Helmet } from 'react-helmet'
 
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import { BLOCKS } from '@contentful/rich-text-types';
-import { Link , graphql} from 'gatsby';
+import { Link , graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 function ArticleContent(props) {
 
@@ -13,6 +14,8 @@ function ArticleContent(props) {
     const title = props.pageContext.title
     const tags = props.pageContext.tags
     const timeStamp = props.pageContext.timeStamp
+    const hero = props.data.contentfulArticle.heroImage
+
 
 
     //Creates a rich text document
@@ -97,10 +100,12 @@ function ArticleContent(props) {
                 to="/">
                 Back to Home
             </Link>
+
             <Helmet>
                 <title>{title}</title>
             </Helmet>
             <div className="article-content">
+                <Img fluid={hero} key={title}/>
                 <span className="display-4">{title}</span>
                 <div className="mt-5">
                     {
@@ -133,3 +138,4 @@ query getContentBySlug($slug : String){
   }
 }
 `
+

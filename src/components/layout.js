@@ -1,6 +1,7 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 
+
 function Layout({ children }) {
     const data = {
         'title': "Welcome to the City of Hanahan Park Central",
@@ -24,7 +25,7 @@ function Layout({ children }) {
                     </div>
                 </div>
             </div>
-            {/* <span><img src="https://www.sciencenews.org/wp-content/uploads/2020/04/041120_playgrounds_feat-1028x579.jpg" alt="kids" width='100%'/>  </span> */}
+
         </div>
     )
 }

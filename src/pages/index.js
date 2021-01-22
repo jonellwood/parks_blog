@@ -17,7 +17,10 @@ function index({ data }) {
       <Layout>
         <ArticleList articles={articles} />
       </Layout>
+
     </div>
+
+
   )
 }
 
